@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BB781282CC0F8E6000252E3 /* FitifyWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7BB781272CC0F8E6000252E3 /* FitifyWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7BB7812D2CC0F8E6000252E3 /* FitifyWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7812C2CC0F8E6000252E3 /* FitifyWatchApp.swift */; };
+		7BB7812F2CC0F8E6000252E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7812E2CC0F8E6000252E3 /* ContentView.swift */; };
+		7BB781312CC0F8E9000252E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB781302CC0F8E9000252E3 /* Assets.xcassets */; };
+		7BB781342CC0F8E9000252E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB781332CC0F8E9000252E3 /* Preview Assets.xcassets */; };
+		7BB7813E2CC0F8E9000252E3 /* FitifyWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7813D2CC0F8E9000252E3 /* FitifyWatch_Watch_AppTests.swift */; };
+		7BB781482CC0F8E9000252E3 /* FitifyWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB781472CC0F8E9000252E3 /* FitifyWatch_Watch_AppUITests.swift */; };
+		7BB7814A2CC0F8E9000252E3 /* FitifyWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB781492CC0F8E9000252E3 /* FitifyWatch_Watch_AppUITestsLaunchTests.swift */; };
+		7BB7815C2CC0FB64000252E3 /* GymView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7815B2CC0FB64000252E3 /* GymView.swift */; };
+		7BB7815E2CC10048000252E3 /* GenrePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7815D2CC10047000252E3 /* GenrePickerView.swift */; };
+		7BB781602CC102AE000252E3 /* WorkoutStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB7815F2CC102AE000252E3 /* WorkoutStartView.swift */; };
+		7BB781622CC10E0A000252E3 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB781612CC10E09000252E3 /* ColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BB781292CC0F8E6000252E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB7811B2CC0F8E5000252E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB781262CC0F8E6000252E3;
+			remoteInfo = "FitifyWatch Watch App";
+		};
+		7BB7813A2CC0F8E9000252E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB7811B2CC0F8E5000252E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB781262CC0F8E6000252E3;
+			remoteInfo = "FitifyWatch Watch App";
+		};
+		7BB781442CC0F8E9000252E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB7811B2CC0F8E5000252E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB781262CC0F8E6000252E3;
+			remoteInfo = "FitifyWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BB781502CC0F8E9000252E3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				7BB781282CC0F8E6000252E3 /* FitifyWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7BB781212CC0F8E6000252E3 /* FitifyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitifyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB781272CC0F8E6000252E3 /* FitifyWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitifyWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB7812C2CC0F8E6000252E3 /* FitifyWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitifyWatchApp.swift; sourceTree = "<group>"; };
+		7BB7812E2CC0F8E6000252E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7BB781302CC0F8E9000252E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BB781332CC0F8E9000252E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BB781392CC0F8E9000252E3 /* FitifyWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitifyWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB7813D2CC0F8E9000252E3 /* FitifyWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitifyWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		7BB781432CC0F8E9000252E3 /* FitifyWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FitifyWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB781472CC0F8E9000252E3 /* FitifyWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitifyWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		7BB781492CC0F8E9000252E3 /* FitifyWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitifyWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BB7815A2CC0FB64000252E3 /* FitifyWatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitifyWatch-Bridging-Header.h"; sourceTree = "<group>"; };
+		7BB7815B2CC0FB64000252E3 /* GymView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymView.swift; sourceTree = "<group>"; };
+		7BB7815D2CC10047000252E3 /* GenrePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenrePickerView.swift; sourceTree = "<group>"; };
+		7BB7815F2CC102AE000252E3 /* WorkoutStartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutStartView.swift; sourceTree = "<group>"; };
+		7BB781612CC10E09000252E3 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB781242CC0F8E6000252E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB781362CC0F8E9000252E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB781402CC0F8E9000252E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB7811A2CC0F8E5000252E3 = {
+			isa = PBXGroup;
+			children = (
+				7BB7812B2CC0F8E6000252E3 /* FitifyWatch Watch App */,
+				7BB7813C2CC0F8E9000252E3 /* FitifyWatch Watch AppTests */,
+				7BB781462CC0F8E9000252E3 /* FitifyWatch Watch AppUITests */,
+				7BB781222CC0F8E6000252E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB781222CC0F8E6000252E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB781212CC0F8E6000252E3 /* FitifyWatch.app */,
+				7BB781272CC0F8E6000252E3 /* FitifyWatch Watch App.app */,
+				7BB781392CC0F8E9000252E3 /* FitifyWatch Watch AppTests.xctest */,
+				7BB781432CC0F8E9000252E3 /* FitifyWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB7812B2CC0F8E6000252E3 /* FitifyWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				7BB7812C2CC0F8E6000252E3 /* FitifyWatchApp.swift */,
+				7BB781612CC10E09000252E3 /* ColorExtension.swift */,
+				7BB7815D2CC10047000252E3 /* GenrePickerView.swift */,
+				7BB7815F2CC102AE000252E3 /* WorkoutStartView.swift */,
+				7BB7812E2CC0F8E6000252E3 /* ContentView.swift */,
+				7BB7815B2CC0FB64000252E3 /* GymView.swift */,
+				7BB781302CC0F8E9000252E3 /* Assets.xcassets */,
+				7BB781322CC0F8E9000252E3 /* Preview Content */,
+				7BB7815A2CC0FB64000252E3 /* FitifyWatch-Bridging-Header.h */,
+			);
+			path = "FitifyWatch Watch App";
+			sourceTree = "<group>";
+		};
+		7BB781322CC0F8E9000252E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7BB781332CC0F8E9000252E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BB7813C2CC0F8E9000252E3 /* FitifyWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB7813D2CC0F8E9000252E3 /* FitifyWatch_Watch_AppTests.swift */,
+			);
+			path = "FitifyWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		7BB781462CC0F8E9000252E3 /* FitifyWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB781472CC0F8E9000252E3 /* FitifyWatch_Watch_AppUITests.swift */,
+				7BB781492CC0F8E9000252E3 /* FitifyWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "FitifyWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB781202CC0F8E6000252E3 /* FitifyWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB781512CC0F8E9000252E3 /* Build configuration list for PBXNativeTarget "FitifyWatch" */;
+			buildPhases = (
+				7BB7811F2CC0F8E6000252E3 /* Resources */,
+				7BB781502CC0F8E9000252E3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB7812A2CC0F8E6000252E3 /* PBXTargetDependency */,
+			);
+			name = FitifyWatch;
+			productName = FitifyWatch;
+			productReference = 7BB781212CC0F8E6000252E3 /* FitifyWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		7BB781262CC0F8E6000252E3 /* FitifyWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB7814D2CC0F8E9000252E3 /* Build configuration list for PBXNativeTarget "FitifyWatch Watch App" */;
+			buildPhases = (
+				7BB781232CC0F8E6000252E3 /* Sources */,
+				7BB781242CC0F8E6000252E3 /* Frameworks */,
+				7BB781252CC0F8E6000252E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FitifyWatch Watch App";
+			productName = "FitifyWatch Watch App";
+			productReference = 7BB781272CC0F8E6000252E3 /* FitifyWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BB781382CC0F8E9000252E3 /* FitifyWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB781542CC0F8E9000252E3 /* Build configuration list for PBXNativeTarget "FitifyWatch Watch AppTests" */;
+			buildPhases = (
+				7BB781352CC0F8E9000252E3 /* Sources */,
+				7BB781362CC0F8E9000252E3 /* Frameworks */,
+				7BB781372CC0F8E9000252E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB7813B2CC0F8E9000252E3 /* PBXTargetDependency */,
+			);
+			name = "FitifyWatch Watch AppTests";
+			productName = "FitifyWatch Watch AppTests";
+			productReference = 7BB781392CC0F8E9000252E3 /* FitifyWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BB781422CC0F8E9000252E3 /* FitifyWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB781572CC0F8E9000252E3 /* Build configuration list for PBXNativeTarget "FitifyWatch Watch AppUITests" */;
+			buildPhases = (
+				7BB7813F2CC0F8E9000252E3 /* Sources */,
+				7BB781402CC0F8E9000252E3 /* Frameworks */,
+				7BB781412CC0F8E9000252E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB781452CC0F8E9000252E3 /* PBXTargetDependency */,
+			);
+			name = "FitifyWatch Watch AppUITests";
+			productName = "FitifyWatch Watch AppUITests";
+			productReference = 7BB781432CC0F8E9000252E3 /* FitifyWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB7811B2CC0F8E5000252E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7BB781202CC0F8E6000252E3 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					7BB781262CC0F8E6000252E3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7BB781382CC0F8E9000252E3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7BB781262CC0F8E6000252E3;
+					};
+					7BB781422CC0F8E9000252E3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7BB781262CC0F8E6000252E3;
+					};
+				};
+			};
+			buildConfigurationList = 7BB7811E2CC0F8E5000252E3 /* Build configuration list for PBXProject "FitifyWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BB7811A2CC0F8E5000252E3;
+			productRefGroup = 7BB781222CC0F8E6000252E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB781202CC0F8E6000252E3 /* FitifyWatch */,
+				7BB781262CC0F8E6000252E3 /* FitifyWatch Watch App */,
+				7BB781382CC0F8E9000252E3 /* FitifyWatch Watch AppTests */,
+				7BB781422CC0F8E9000252E3 /* FitifyWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB7811F2CC0F8E6000252E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB781252CC0F8E6000252E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB781342CC0F8E9000252E3 /* Preview Assets.xcassets in Resources */,
+				7BB781312CC0F8E9000252E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB781372CC0F8E9000252E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB781412CC0F8E9000252E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB781232CC0F8E6000252E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB7812F2CC0F8E6000252E3 /* ContentView.swift in Sources */,
+				7BB7815C2CC0FB64000252E3 /* GymView.swift in Sources */,
+				7BB7815E2CC10048000252E3 /* GenrePickerView.swift in Sources */,
+				7BB781622CC10E0A000252E3 /* ColorExtension.swift in Sources */,
+				7BB781602CC102AE000252E3 /* WorkoutStartView.swift in Sources */,
+				7BB7812D2CC0F8E6000252E3 /* FitifyWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB781352CC0F8E9000252E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB7813E2CC0F8E9000252E3 /* FitifyWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB7813F2CC0F8E9000252E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB781482CC0F8E9000252E3 /* FitifyWatch_Watch_AppUITests.swift in Sources */,
+				7BB7814A2CC0F8E9000252E3 /* FitifyWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BB7812A2CC0F8E6000252E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB781262CC0F8E6000252E3 /* FitifyWatch Watch App */;
+			targetProxy = 7BB781292CC0F8E6000252E3 /* PBXContainerItemProxy */;
+		};
+		7BB7813B2CC0F8E9000252E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB781262CC0F8E6000252E3 /* FitifyWatch Watch App */;
+			targetProxy = 7BB7813A2CC0F8E9000252E3 /* PBXContainerItemProxy */;
+		};
+		7BB781452CC0F8E9000252E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB781262CC0F8E6000252E3 /* FitifyWatch Watch App */;
+			targetProxy = 7BB781442CC0F8E9000252E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7BB7814B2CC0F8E9000252E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BB7814C2CC0F8E9000252E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7BB7814E2CC0F8E9000252E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitifyWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K75G8H5HWP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FitifyWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project1A.FitifyWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		7BB7814F2CC0F8E9000252E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitifyWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K75G8H5HWP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FitifyWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project1A.FitifyWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		7BB781522CC0F8E9000252E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K75G8H5HWP;
+				INFOPLIST_KEY_CFBundleDisplayName = FitifyWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project1A.FitifyWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "FitifyWatch Watch App/FitifyWatch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7BB781532CC0F8E9000252E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K75G8H5HWP;
+				INFOPLIST_KEY_CFBundleDisplayName = FitifyWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project1A.FitifyWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "FitifyWatch Watch App/FitifyWatch-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB781552CC0F8E9000252E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K75G8H5HWP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Project1A.FitifyWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitifyWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitifyWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		7BB781562CC0F8E9000252E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K75G8H5HWP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Project1A.FitifyWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitifyWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitifyWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		7BB781582CC0F8E9000252E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K75G8H5HWP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Project1A.FitifyWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FitifyWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		7BB781592CC0F8E9000252E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K75G8H5HWP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Project1A.FitifyWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "FitifyWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB7811E2CC0F8E5000252E3 /* Build configuration list for PBXProject "FitifyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB7814B2CC0F8E9000252E3 /* Debug */,
+				7BB7814C2CC0F8E9000252E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB7814D2CC0F8E9000252E3 /* Build configuration list for PBXNativeTarget "FitifyWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB7814E2CC0F8E9000252E3 /* Debug */,
+				7BB7814F2CC0F8E9000252E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB781512CC0F8E9000252E3 /* Build configuration list for PBXNativeTarget "FitifyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB781522CC0F8E9000252E3 /* Debug */,
+				7BB781532CC0F8E9000252E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB781542CC0F8E9000252E3 /* Build configuration list for PBXNativeTarget "FitifyWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB781552CC0F8E9000252E3 /* Debug */,
+				7BB781562CC0F8E9000252E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB781572CC0F8E9000252E3 /* Build configuration list for PBXNativeTarget "FitifyWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB781582CC0F8E9000252E3 /* Debug */,
+				7BB781592CC0F8E9000252E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB7811B2CC0F8E5000252E3 /* Project object */;
+}
